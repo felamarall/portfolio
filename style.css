@@ -92,7 +92,15 @@ nav a:hover {
   text-align: justify;
 
 }
+.sobre-texto p {
+  margin-bottom: 20px; /* Cria o espaço entre o primeiro e o segundo parágrafo */
+  line-height: 1.6;    /* Melhora a leitura deixando o texto menos "apertado" */
+}
 
+/* Para o último parágrafo não ter margem sobrando embaixo */
+.sobre-texto p:last-child {
+  margin-bottom: 0;
+}
 /* PROJETOS */
 .cards {
   max-width: 1100px;
